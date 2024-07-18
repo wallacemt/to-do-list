@@ -7,12 +7,12 @@ Projeto de aplicação de lista de tarefas, feita com foco na fixação de estud
         <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDdsMG54NXFjZWVsM3pmcm40NjJucW05NTJuMjE2NTIzeTB6NjRrbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kBqzePfUImX3i9drKk/giphy.webp"/>
 </div>
 
-## Desenvolvimento
+## DEV
 
 - Clone the repo:
 
 ```bash
-$ git clone https://github.com/cassidoo/todometer.git
+$ git clone https://github.com/wallacemt/todolist.git
 ```
 
 - Acesse o diretório do projeto e instale as dependências:
