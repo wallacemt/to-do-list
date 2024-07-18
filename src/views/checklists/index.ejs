@@ -1,0 +1,103 @@
+<%- include('../layouts/header', {title: 'Lista de Tarefas' }) %>
+
+    <%- include('../layouts/menu') %>
+        <style>
+            html {
+                height: 100%;
+                background: url("https://images.alphacoders.com/726/thumb-1920-726667.jpg") no-repeat fixed center;
+
+            }
+
+            .card {
+                border-radius: 15px 15px 0px 0px;
+                font-weight: 600;
+            }
+
+            .card-footer-item.viw,
+            .card-footer-item.edit {
+                background-color: #202426;
+                color: #fff;
+            }
+
+            .card-footer-item.del {
+                background-color: #202426;
+                color: red;
+            }
+
+            .card-footer-item.viw:hover {
+                background-color: #6C733D;
+                color: white;
+                transition: 0.5s;
+            }
+
+            .card-footer-item.edit:hover {
+                background-color: dodgerblue;
+                color: white;
+                transition: 0.5s;
+
+            }
+
+            .card-footer-item.del:hover {
+                background-color: #111314;
+                color: crimson;
+                transition: 0.5s;
+            }
+
+            .title {
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                padding: 10px;
+                max-width: 265px;
+                line-height: 30px;
+                border-radius: 0px 30px;
+                background-color: #111314;
+                font-weight: bold;
+            }
+        </style>
+        <section class="section">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-four-fifths">
+                        <h1 class="title size-4 has-text-white">Listas de Tarefas</h1>
+                    </div>
+                    <div class="column is-one-fifth">
+                        <a href="/checklists/new" class="button is-success is-big">Nova Lista</a>
+                    </div>
+                </div>
+
+                <div class="columns is-multiline">
+                    <% checklists.forEach(checklist=> {%>
+                        <div class="column is-one-quarter">
+                            <div class="card has-background-white-ter">
+                                <div class="card-content">
+                                    <p class="subtitle is-size-5">
+                                        <%= checklist.name %>
+                                    </p>
+                                    <p class="subtitle is-size-6">
+                                        <%= checklist.tasks.length %> tarefas
+                                    </p>
+                                </div>
+                                <footer class="card-footer">
+                                    <a class="card-footer-item viw" href="/checklists/<%=checklist._id %>">
+                                        <span>
+                                            <p>Ver</p>
+                                        </span>
+                                    </a>
+                                    <a class="card-footer-item edit" href="/checklists/<%= checklist._id %>/edit">
+                                        <span>
+                                            <p>Editar</p>
+                                        </span>
+                                    </a>
+                                    <a class="card-footer-item del"
+                                        href="/checklists/<%= checklist._id %>?_method=delete" class="has-text-danger">
+                                        <span>
+                                            <p>Remover</p>
+                                        </span>
+                                    </a>
+                                </footer>
+                            </div>
+                        </div>
+                        <% }) %>
+                </div>
+            </div>
+        </section>
+        <%- include('../layouts/footer') %>
