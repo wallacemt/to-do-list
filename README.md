@@ -3,7 +3,7 @@
 
 Projeto de aplicação de lista de tarefas, feita com foco na fixação de estudos. O Projeto conta com um banco de dados MongoDB além da utilização do node.js é express. além de outras ferramentas.<br>
 
-<img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDdsMG54NXFjZWVsM3pmcm40NjJucW05NTJuMjE2NTIzeTB6NjRrbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kBqzePfUImX3i9drKk/giphy.webp"/>
+<img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDdsMG54NXFjZWVsM3pmcm40NjJucW05NTJuMjE2NTIzeTB6NjRrbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kBqzePfUImX3i9drKk/giphy.webp" style="text-align: center;"/>
 
 ## Desenvolvimento
 
