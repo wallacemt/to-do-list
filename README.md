@@ -35,7 +35,6 @@ $ npm run dev
 ![JavaScript](https://img.shields.io/badge/-JavaScript-0D1117?style=for-the-badge&logo=javascript&labelColor=0D1117&textColor=0D1117)&nbsp;
 ![MongoDB](https://img.shields.io/badge/-MongoDB-0D1117?style=for-the-badge&logo=mongodb&labelColor=0D1117&textColor=0D1117)&nbsp;
 ![Express](https://img.shields.io/badge/-Express-0D1117?style=for-the-badge&logo=express&labelColor=0D1117&textColor=0D1117)&nbsp;
-![JavaScript](https://img.shields.io/badge/-JavaScript-0D1117?style=for-the-badge&logo=javascript&labelColor=0D1117&textColor=0D1117)&nbsp;
 ![Mongoose](https://img.shields.io/badge/-Mongoose-0D1117?style=for-the-badge&logo=mongoose&labelColor=0D1117&textColor=0D1117)&nbsp;
 ![EJS](https://img.shields.io/badge/-EJS-0D1117?style=for-the-badge&logo=ejs&labelColor=0D1117&textColor=0D1117)&nbsp;
 
